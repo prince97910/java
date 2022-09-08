@@ -1,0 +1,33 @@
+Class Datatypes
+{
+     public static void main(string[] args)
+	 {
+	 byte a;
+	 a=1;
+	 system.out.println("value of byte is "+a);
+	 short b;
+	 b=2;
+	 system.out.println("value of short is "+b);
+	 int c;
+	 c=3;
+	 system.out.println("value of int is "+c);
+	 long d;
+	 d=4;
+	 system.out.println("value of long is "+d);
+	 float e;
+	 e=2.3;
+	 system.out.println("value of float is "+e);
+	 double f;
+	 f=36.1488888;
+	 system.out.println("value of double is "+f);
+	 char g;
+	 g='don';
+	 system.out.println("value of char is "+g);
+	 string h;
+	 h="dhoni007";
+	 system.out.println("value of string is "+h);
+	 boolean i;
+	 i=true;
+	 system.out.println("value of boolean is "+i);
+	 }
+}

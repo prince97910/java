@@ -1,0 +1,25 @@
+class Operator 
+{
+             public static void main(string[] args)
+             {
+             int a,b,c,d,e,f,g,h,i,j,k,l ;
+             boolean b1,b2,b3,b4 ;
+             a=6;
+             b=5;
+             c=a+b;
+             d=a-b;
+             e=a*b;
+             f=a/b;
+             g=a%b;
+             h=a++;
+             i=b++;
+             j=(a<b) ? 1:2;
+             k=a&b;
+             l=a|b;
+             b1=a<b;
+             b2=a>b;
+             b3=a!=b;
+             b4=a==b;
+             system.print.ln(" "+a+" "b+" "+c+" "+d+" " +e+" " +f+" " +g+" "+h+" "+i+" "+j+" "+k+" "+l+" "+b1+" "+b2+" "+b3+" "+b4);
+             }
+}

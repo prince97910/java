@@ -1,0 +1,17 @@
+
+import java.utill.scanner
+Class Students
+{
+		public static void main(string[] args)
+		{
+		int sno;
+	      char sname;
+		double satt;
+            system.out.println("Enter the detail of student");
+            scanner sc=new.scanner(system.in);
+		sno=sc.nextint();
+            sname=sc.nextchar();
+            satt=sc.nextdouble();
+            system.out.println("student detail are entered ");
+            }
+}
