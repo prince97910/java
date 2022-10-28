@@ -3,8 +3,8 @@ public class FileOutputStreamExample {
     public static void main(String args[]){    
            try{    
              FileOutputStream fout=new FileOutputStream("D:\\testout.txt");    
-             String s="Welcome to javaTpoint.";    
-             byte b[]=s.getBytes();//converting string into byte array    
+             String s="Welcome to home.";    
+             byte b[]=s.getBytes();   
              fout.write(b);    
              fout.close();    
              System.out.println("success...");    
