@@ -4,7 +4,7 @@ public class PrintWriterExample {
     public static void main(String[] args) throws Exception {  
             
       PrintWriter writer = new PrintWriter(System.out);    
-      writer.write("Javatpoint provides tutorials of all technology.");        
+      writer.write("hope is only the way.");        
  writer.flush();  
       writer.close();  
     
