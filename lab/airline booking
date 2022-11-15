@@ -1,0 +1,66 @@
+package airlines;
+
+import java.util.Scanner;
+
+public class login {
+
+	public login(int userid, String password) 
+	{
+		if(userid==1234)
+		{
+			System.out.println("WElcome to prince airline");
+		}
+		else
+		{
+			System.out.println("please enter valid login detail");
+		}
+		
+	
+	}
+	public static void main(String args[])
+	{
+		int n ;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the join details");
+		n=sc.nextInt();
+		login l=new login(n," a");
+		
+	}
+}
+public class Bookflight {
+	int bookid;
+	int flightid;
+	String type;
+	String dateofjounrey;
+	String dateofbooking;
+	int numberofadults;
+	int numberofchilds;
+	char gender;
+	double ticketfare; 
+	int customerid;
+
+	public Bookflight(int bookid,int flightid,String type,String dateofjounrey,String dateofbooking,int numberofadults,int numberofchilds,char gender,double ticketfare,
+	int customerid) {
+		this.bookid=bookid;
+		this.flightid=flightid;
+		this.type=type;
+		this.dateofjounrey=dateofjounrey;
+		this.dateofbooking=dateofbooking;
+		this.numberofadults=numberofadults;
+		this.numberofchilds=numberofchilds;
+		this.gender=gender;
+		this.ticketfare=ticketfare; 
+		this.customerid=customerid;
+	}
+
+}
+class fight{
+public static void main(String args[]){
+List<Bookflight> l=new ArrayList<Bookflight>();
+l.add(12345,5555,"ecpnpmy","12/5/2022","11/5/2022",2,0,'m',25000,1234);
+for(Bookflight bk:l)
+{
+System.out.prinln("the booking details are " +bk);
+}
+}
+}
